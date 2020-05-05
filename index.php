@@ -8,6 +8,10 @@ $carros = new Carros($pdo);
 ?>
 
 <h1>Reservas</h1>
+
+<a href="reservar.php">Adicionar Reserva</a>
+<br/><br/>
+
 <?php
 $lista = $reservas->getReservas();
 
